@@ -122,6 +122,8 @@ dalvik.vm.image-dex2oat-threads=4
 # Display
 debug.cpurend.vsync=true
 debug.sf.disable_backpressure=1
+debug.sf.early_app_phase_offset_ns=500000
+debug.sf.early_phase_offset_ns=500000
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=1
