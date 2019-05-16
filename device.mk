@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
 # ANX Camera
 $(call inherit-product-if-exists, vendor/xiaomi/anx-camera/anx-camera.mk)
 
+# ATRACE_HAL
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
