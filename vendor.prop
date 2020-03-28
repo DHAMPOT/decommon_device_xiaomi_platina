@@ -120,7 +120,7 @@ dalvik.vm.image-dex2oat-threads=8
 
 # Display
 debug.cpurend.vsync=true
-debug.sf.disable_backpressure=0
+debug.sf.disable_backpressure=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
