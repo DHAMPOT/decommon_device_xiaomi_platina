@@ -2,6 +2,14 @@
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
+<<<<<<< HEAD
         <fqname>@2.1::IBiometricsFingerprint/default</fqname>
+=======
+        <version>2.1</version>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+>>>>>>> 257b73a (platina: fingerprint: Include VINTF fragment)
     </hal>
 </manifest>
