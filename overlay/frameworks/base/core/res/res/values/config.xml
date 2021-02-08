@@ -131,16 +131,8 @@
     -->
     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
         M -150,0
-        L -150,88
-        L 150,88
-        L 150,0
-        Z
-    </string>
-
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M -150,0
-        L -150,88
-        L 150,88
+        L -150,81
+        L 150,81
         L 150,0
         Z
     </string>
