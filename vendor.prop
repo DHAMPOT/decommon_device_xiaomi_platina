@@ -184,5 +184,8 @@ ro.vendor.sensors.pmd=true
 ro.vendor.sensors.sta_detect=true
 ro.vendor.sensors.mot_detect=true
 
+# System Restart
+ro.build.shutdown_timeout=2
+
 # Time
 persist.vendor.delta_time.enable=true
