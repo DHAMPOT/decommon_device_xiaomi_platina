@@ -296,6 +296,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+PRODUCT_PACKAGES += \
+    libavservices_minijail \
+    libavservices_minijail.vendor
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
