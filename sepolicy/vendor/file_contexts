@@ -1,6 +1,10 @@
 # Biometric
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_sdm660   u:object_r:hal_fingerprint_sdm660_exec:s0
 
+# DT2W
+/proc/touchpanel/wake_gesture                   u:object_r:sysfs_tap_to_wake:s0
+/sys/devices/soc/c178000.i2c/i2c-4/4-0062/wake_gesture                                                  u:object_r:sysfs_tap_to_wake:s0
+
 # Fingerprint
 /data/gf_data(/.*)?                             u:object_r:fingerprintd_data_file:s0
 /data/vendor/fpc(/.*)?                          u:object_r:fingerprint_vendor_data_file:s0
