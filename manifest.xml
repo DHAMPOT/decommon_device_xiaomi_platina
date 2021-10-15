@@ -58,6 +58,11 @@
         <fqname>@2.1::IMapper/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.keymaster</name>
+        <transport>hwbinder</transport>
+        <fqname>@3.0::IKeymasterDevice/default</fqname>
+    </hal>    
+    <hal format="hidl">
         <name>android.hardware.media.omx</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IOmx/default</fqname>
@@ -158,12 +163,17 @@
         <fqname>@1.0::IDisplayPostproc/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.goodix.hardware.fingerprint</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IAdaptiveBacklight/default</fqname>
         <fqname>@2.0::IDisplayModes/default</fqname>
         <fqname>@2.0::IPictureAdjustment/default</fqname>
-    </hal>
+    </hal>    
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>

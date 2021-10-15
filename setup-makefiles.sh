@@ -6,6 +6,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Required!
+export DEVICE=platina
+export VENDOR=xiaomi
+
+export DEVICE_BRINGUP_YEAR=2021
+
 set -e
 
 # Load extract_utils and do some sanity checks
@@ -56,7 +62,7 @@ if [ -s "${MY_DIR}/../$DEVICE_SPECIFIED_COMMON/proprietary-files.txt" ]; then
     # Finish
     write_footers
 
-    DEVICE_COMMON="sdm660-common"
+    DEVICE_COMMON="platina"
 fi
 
 if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
